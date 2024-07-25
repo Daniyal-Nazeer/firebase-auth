@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        .register_form {
+    text-align: center;
+    background: red;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 13px;
+    margin-top: 150px;
+}
+
+h1.title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: monospace;
+    line-height: 3;
+}
+
+input#email {
+    height: 35px;
+    width: 70%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: monospace;
+    border-radius: 4px;
+    border: 0;
+    padding: 2px 12px;
+    margin: 20px 0;
+}
+
+input#password{
+    height: 35px;
+    width: 70%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: monospace;
+    border-radius: 4px;
+    border: 0;
+    padding: 2px 12px;
+}
+
+button {
+    border: 0;
+    background: blue;
+    color: #fff;
+    padding: 14px 75px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 24px 0;
+}
+    </style>
+</head>
+<body>
+
+    <div class="register_form">
+    <h1 class="title">Login User</h1>
+
+    <form id="form">
+        <input type="email" id="email" placeholder="email">
+        <input type="password" id="password" placeholder="password">
+        <button type="submit">Login</button>
+        <a href="./index.html">Register</a>
+    </form>
+</div>
+
+    <script type="module" src="login.js"></script>
+</body>
+</html>
